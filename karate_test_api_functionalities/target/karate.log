@@ -1,0 +1,28 @@
+09:09:17.908 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+09:09:19.116 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:09:19.240 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+09:09:23.063 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:09:24.033 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:09:26.079 [main] DEBUG com.intuit.karate - response time in milliseconds: 2033
+1 < 200
+1 < Date: Sun, 27 Aug 2023 14:09:25 GMT
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kXzj%2F5U9fYJ0xMiPQQSGKMJ7060mfqHneCJj9A6haOGdyPR0Yzqhhpfr4LKanT7EzNT521%2F4X%2FfiHDb%2F6hQECzNq0JF82TUwDGhRILyx%2BZnqCrGw7kUK%2F%2FAYWdefk7vGceYpArM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7fd4e465cbe10345-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":["explicit"],"created_at":"2020-01-05 13:42:30.177068","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"TAl2IXxlR9qTWMVSc9Vv3w","updated_at":"2020-01-05 13:42:30.177068","url":"https://api.chucknorris.io/jokes/TAl2IXxlR9qTWMVSc9Vv3w","value":"Chuck Norris could kick a faggot straight."}
+
+09:09:27.880 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/resources/karate/test_api.feature
